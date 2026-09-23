@@ -1,5 +1,6 @@
 ---
 import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
 import '../styles/global.css';
 const pageTitle = "About Me";
 const identity = {
@@ -31,6 +32,7 @@ const textCase = "uppesrcase";
 			}
 		</style>
 	</head>
+    
 	<body>
 		<Navigation />
 		<h1>{pageTitle}</h1>
@@ -57,5 +59,6 @@ const textCase = "uppesrcase";
 
 		<p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself!</p>
 		<p>This site will update as I complete more of the tutorial, so keep checking back and see how my journey is going!</p>
+        <Footer />
 	</body>
 </html>
