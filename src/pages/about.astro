@@ -13,7 +13,7 @@ const identity = {
 const skills = ["HTML", "CSS", "JavaScript", "Astro"];
 const skillColor = "navy";
 const fontWeight = "bold";
-const textCase = "uppesrcase";
+const textCase = "uppercase";
 ---
 <html lang="en">
 	<head>
@@ -32,33 +32,26 @@ const textCase = "uppesrcase";
 			}
 		</style>
 	</head>
-    
+
 	<body>
 		<Navigation />
 		<h1>{pageTitle}</h1>
-		<a href="/">Home</a>
-		<a href="/about/">About</a>
-		<a href="/blog/">Blog</a>
-		<h1>{pageTitle}</h1>
-		<h2>... and my new Astro site!</h2>
-
-		<p>Here are a few facts about me:</p>
+		<p>Cosas interesantes:</p>
 		<ul>
-			<li>My name is {identity.firstName}.</li>
-			<li>I live in {identity.city}, {identity.country}.</li>
-			<li>I work as a {identity.occupation}.</li>
+			<li>Me llamo {identity.firstName}.</li>
+			<li>Vivo en {identity.city}, {identity.country}.</li>
+			<li>Ahorita soy {identity.occupation}.</li>
 			{identity.hobbies.length >= 1 &&
-				<li>One of my hobbies is: {identity.hobbies[0]}</li>
+				<li>Mi hobby es el: {identity.hobbies[0]}</li>
 			}
 		</ul>
 
-		<p>My skills are:</p>
+		<p>Mis disque habilidades:</p>
 		<ul>
 			{skills.map((skill) => <li class="skill">{skill}</li>)}
 		</ul>
 
-		<p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself!</p>
-		<p>This site will update as I complete more of the tutorial, so keep checking back and see how my journey is going!</p>
-        <Footer />
+		<p>Este es el about está curioso esto del Astro</p>
+		<Footer />
 	</body>
 </html>
