@@ -1,5 +1,6 @@
 ---
 import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
 import Navigation from '../components/Navigation.astro';
 import '../styles/global.css';
 const pageTitle = "Astrazo";
@@ -11,10 +12,13 @@ const pageTitle = "Astrazo";
 		<title>{pageTitle}</title>
 	</head>
 	<body>
-		<Navigation />
+		<Header />
 		<h1>{pageTitle}</h1>
 		<h1>Extraño a Karen</h1>
 		<p>Este es la pagina principal aca bien bastarda</p>
 		<Footer />
+		<script>
+	        import "../scripts/menu.js";
+        </script>
 	</body>
 </html>
