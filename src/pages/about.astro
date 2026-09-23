@@ -1,17 +1,57 @@
+---
+const pageTitle = "About Me";
+const identity = {
+  firstName: "Dante",
+  country: "México",
+  city: "Guadalajara, Jalisco",
+  occupation: "Estudiante",
+  hobbies: ["boliche"],
+};
+const skills = ["HTML", "CSS", "JavaScript", "Astro"];
+const skillColor = "navy";
+const fontWeight = "bold";
+const textCase = "uppercase";
+---
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<title>{pageTitle}</title>
+		<style define:vars={{ skillColor, fontWeight, textCase }}>
+			h1 {
+				color: purple;
+				font-size: 4rem;
+			}
+			.skill {
+				color: var(--skillColor);
+				font-weight: var(--fontWeight);
+				text-transform: var(--textCase);
+			}
+		</style>
 	</head>
 	<body>
-        <a href="/">Home    </a>
-        <a href="/about/">About    </a>
-        <a href="/blog/">Blog    </a>
-		<h1>Extraño a Karen</h1>
-        <p>Este es el ABOUT</p>
+		<a href="/">Home</a>
+		<a href="/about/">About</a>
+		<a href="/blog/">Blog</a>
+		<h1>{pageTitle}</h1>
+		<h2>... and my new Astro site!</h2>
+
+		<p>Here are a few facts about me:</p>
+		<ul>
+			<li>My name is {identity.firstName}.</li>
+			<li>I live in {identity.city}, {identity.country}.</li>
+			<li>I work as a {identity.occupation}.</li>
+			{identity.hobbies.length >= 1 &&
+				<li>One of my hobbies is: {identity.hobbies[0]}</li>
+			}
+		</ul>
+
+		<p>My skills are:</p>
+		<ul>
+			{skills.map((skill) => <li class="skill">{skill}</li>)}
+		</ul>
+
+		<p>I am working through Astro's introductory tutorial. This is the second page on my website, and it's the first one I built myself!</p>
+		<p>This site will update as I complete more of the tutorial, so keep checking back and see how my journey is going!</p>
 	</body>
 </html>
