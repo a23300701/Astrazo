@@ -1,19 +1,14 @@
 ---
-title: 'My First Blog Post'
-pubDate: 2022-07-01
-description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
+layout: ../../layouts/MarkdownPostLayout.astro
+title: 'My primera manualidad de software'
+pubDate: 2026-09-23
+description: 'Esto me está gustando, está entendible.'
+author: 'Dante Gael Franco Herrera'
 image:
-    url: 'https://docs.astro.build/assets/rose.webp'
-    alt: 'The Astro logo on a dark background with a pink glow.'
-tags: ["astro", "blogging", "learning in public"]
+    url: 'https://i.redd.it/hpcz0ibg2jeg1.gif'
+    alt: 'Mondongo.'
+tags: ["Mondongo", "JASON", "CACHONDO"]
 ---
-# My First Blog Post
-
-Published on: 2022-07-01
-
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
-
 ## What I've accomplished
 
 1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.

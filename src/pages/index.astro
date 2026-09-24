@@ -1,24 +1,11 @@
 ---
-import Footer from '../components/Footer.astro';
-import Header from '../components/Header.astro';
-import Navigation from '../components/Navigation.astro';
-import '../styles/global.css';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Greeting from '../components/Greeting';
+const allPosts = Object.values(import.meta.glob('../posts/*.md', { eager: true }));
 const pageTitle = "Astrazo";
 ---
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width" />
-		<title>{pageTitle}</title>
-	</head>
-	<body>
-		<Header />
-		<h1>{pageTitle}</h1>
-		<h1>Extraño a Karen</h1>
-		<p>Este es la pagina principal aca bien bastarda</p>
-		<Footer />
-		<script>
-	        import "../scripts/menu.js";
-        </script>
-	</body>
-</html>
+<BaseLayout pageTitle={pageTitle}>
+	<h1>Extraño a Karen</h1>
+	<p>Este es la pagina principal aca bien bastarda</p>
+	<Greeting client:load messages={["HOLAAA", "¿Como te va?", "BIENVENIDOS", "Gracias por estar aqui"]} />
+</BaseLayout>
