@@ -64,5 +64,5 @@ Tengo entendido que ella me insinuó que quería volver, o algo, por la manera e
 
 Todo esto, es algo que me impactó mucho, como ultimo, pero no me enoja, ni tengo rencor, resulta que todo lo de "volverlo a intentar" lo que sucedio en CDMX, me dijeron mis amigos, que ella había dicho que todo me lo imaginé en mi cabeza y que no quería quedar conmigo, se me hace peculiar, me acuerdo esos 3 dias despues de llegar que hasta nos contabamos de como terminar a nuestras parejas. Eso es todo.
 
-Si leíste todo, de verdad lo aprecio mucho, solo, es algo que quería compartir a los demas. Algo que fue hermoso respecto a como lo viví, Aun asi, con lo que sucedio, le digo guardando un espacio en mi corazón.
+Si leíste todo, de verdad lo aprecio mucho, solo, es algo que quería compartir a los demas. Algo que fue hermoso respecto a como lo viví, Aun asi, con lo que sucedio, le sigo guardando un espacio en mi corazón.
 

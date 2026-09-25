@@ -1,6 +1,20 @@
-# Texto crudo sin IA
-Astro es un framework y esto es lo primero que he hecho y agradezco porque así entendí un poco más las cosas. Todo es como por piezas y, en este caso, los componentes son cosas reutilizables y los layouts se utilizan para no repetir código. Solo se manda el JavaScript al navegador cuando solo se pide. El resto es puro HTML. Esto es, se le llama arquitectura de islas. Obviamente, todo lo estamos haciendo en src y cada una tiene su funcionalidad. En el componente, que es el header, el footer, navigation, social, blog post, theme icon, hamburger, es todo lo que se va a reutilizar para cada página. Los layouts ya son los moldes. Base layout es como en sí la view final. En base layout metes todo, header, footer, navigation, social, blog post, theme icon. Y markdown post layout también ayuda, también es el molde. Pages no hay nada más que agregar, son las páginas reales. En este caso, tags, index, about, etcétera. Los scripts es el JavaScript y los styles es el CSS. Los layouts se mantienen todos, son el molde. Y aquí esto ayuda mucho a no repetir código a cada rato, vas reutilizando. Eh, base layout, como ya lo dije, es la página donde metes todo y vas reutilizando. Cabe recalcar que slot es donde vaya la información declarada en la página web, lo que hay en específico dentro de cada página. Markdown post layout es el molde donde al abrir un post se muestra cuando se publicó, la descripción, la imagen, es como el iniciador. Ahí se pone el nombre de la página, el nombre, etcétera. En posts
+https://me-voy-a-poner-pilas.netlify.app/
 
+Profe gracias por hacerme sacar lo bueno de mi
+
+Astro es un framework y esto es lo primero que he hecho y agradezco porque así entendí un poco más las cosas. Todo es como por piezas y, en este caso, los componentes son cosas reutilizables y los layouts se utilizan para no repetir código. Solo se manda el JavaScript al navegador cuando solo se pide. El resto es puro HTML. Esto es, se le llama arquitectura de islas. Obviamente, todo lo estamos haciendo en src y cada una tiene su funcionalidad. En el componente, que es el header, el footer, navigation, social, blog post, theme icon, hamburger, es todo lo que se va a reutilizar para cada página. Los layouts ya son los moldes. Base layout es como en sí la view final. En base layout metes todo, header, footer, navigation, social, blog post, theme icon. Y markdown post layout también ayuda, también es el molde. Pages no hay nada más que agregar, son las páginas reales. En este caso, tags, index, about, etcétera. Los scripts es el JavaScript y los styles es el CSS. Los layouts se mantienen todos, son el molde. Y aquí esto ayuda mucho a no repetir código a cada rato, vas reutilizando. Eh, base layout, como ya lo dije, es la página donde metes todo y vas reutilizando. Cabe recalcar que slot es donde vaya la información declarada en la página web, lo que hay en específico dentro de cada página. Markdown post layout es el molde donde al abrir un post se muestra cuando se publicó, la descripción, la imagen, es como el iniciador. Ahí se pone el nombre de la página, el nombre, etcétera.
+En si, ya, Astro me gustó mucho, justamente esto de combinar HTML y JAVASCRIPT me fascino, no soy experto programando pero, literal siento que todo está muy bien hecho, al hacer todo como bloques se me hace fantastivo
+
+
+
+
+
+
+
+
+
+
+PARA MI, con IA para aprender
 # Mis Apuntes de Astro — Arquitectura y Moldes 
 
 Esto lo escribo para mí, para recordar cómo funciona la estructura del proyecto y por qué cada carpeta tiene su propósito claro.
